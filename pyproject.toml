@@ -1,0 +1,16 @@
+[project]
+name = "05-deployment-homework"
+version = "0.1.0"
+description = "Lead scoring service"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.120.0",
+    "scikit-learn==1.6.1",
+    "uvicorn>=0.38.0",
+]
+
+[dependency-groups]
+dev = [
+    "requests>=2.32.5",
+]
